@@ -4,20 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play Video YouTube</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .info-box {
+            width: 100%;
+            max-width: 800px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+            line-height: 1.6;
+        }
+        
+        .info-box p {
+            margin: 10px 0;
+        }
+        
+        .info-box strong {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Cara membeli Digital Photobook dengan Bonus Video Call bersama Member JKT48</h1>
 
-    <!-- Video YouTube Embed -->
-    <iframe width="1903" height="742" 
-        src="https://www.youtube.com/embed/yOg79jY-k5M" 
-        title="Cara membeli Digital Photobook dengan Bonus Video Call bersama Member JKT48 - Tutorial #3 JKT48" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
+    <div class="video-container">
+        <!-- Video YouTube Embed -->
+        <iframe 
+            src="https://www.youtube.com/embed/yOg79jY-k5M" 
+            title="Cara membeli Digital Photobook dengan Bonus Video Call bersama Member JKT48 - Tutorial #3 JKT48" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="info-box">
+        <p><strong>Berikut ini adalah Cara membeli Digital Photobook dengan Bonus Video Call bersama member JKT48.</strong></p>
+        <p>Semoga dapat membantu fans JKT48 baru yang ingin mencoba Video Call bersama Member JKT48.</p>
+
+        <p><strong>Catatan tambahan: (Update: 03 Mei 2024)</strong></p>
+        <ul>
+            <li>Harga photobook dengan bonus video call adalah Rp. 120.000</li>
+            <li>Website JKT48 menerapkan waktu tunggu ketika diakses secara masif, jadi kalian harus memperkirakan sendiri untuk mengakses ke form penjualan.</li>
+            <li>Sangat sulit untuk mendapatkan tiket video call bersama beberapa member yang populer, meskipun sudah menjadi OFC.</li>
+            <li>Jika mendapat kesulitan dalam "war" pembelian, disarankan untuk mencari joki yang trusted.</li>
+            <li>Penjualan digital photobook (VC) biasanya diadakan pada minggu kedua tiap bulannya.</li>
+            <li>Anggota OFC diberikan benefit untuk membeli Photobook 1 hari lebih awal daripada anggota gratis (umum).</li>
+            <li>Link video call di kwitansi biasanya tersedia H-1 sebelum jadwal Video Call, jika ada masalah silakan hubungi akun twitter: <strong>moshi2jkt48</strong> (twitter resmi dari JKT48).</li>
+        </ul>
+
+        <p>Baca dengan baik semua penjelasan di website: JKT48.com.</p>
+        <p>Untuk mendownload konten Digital Photobook, masuk ke halaman tempat membeli digital photobook / video callnya. Terdapat box untuk mengisi "NOMOR SERI" dan tombol "Download" di sebelahnya.</p>
+        <p>Jika ada kendala, silakan hubungi akun <strong>moshi2jkt48</strong> di Twitter.</p>
+    </div>
 
 </body>
 </html>
