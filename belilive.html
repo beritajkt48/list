@@ -39,16 +39,18 @@
         .schedule-container {
             width: 100%;
             max-width: 1200px;
-            height: 80vh;
+            background-color: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 8px;
-            overflow: hidden;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .schedule-container iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .schedule-container p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0;
         }
         
         h2 {
@@ -56,6 +58,16 @@
             font-size: 1.5em;
             margin-top: 0;
             margin-bottom: 20px;
+        }
+        
+        .schedule-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .schedule-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -69,7 +81,8 @@
 
     <h2>Jadwal Live Theater JKT48</h2>
     <div class="schedule-container">
-        <iframe src="https://beritajkt48.github.io/info/theater.html" title="Jadwal Live Theater JKT48"></iframe>
+        <p>Untuk melihat jadwal live theater JKT48 atau membeli tiket, silakan kunjungi link berikut:</p>
+        <p><a href="https://beritajkt48.github.io/info/theater.html" class="schedule-link" target="_blank">Klik di sini untuk melihat jadwal live theater JKT48</a></p>
     </div>
 
 </body>
